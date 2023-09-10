@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background: black; */
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: darkorchid;
+}
+
+.detail {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    color: darkorchid ;
+}
+
+.detail p {
+    color: white;
+    line-height: 22px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s ease, left 1s ease;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+#skills {
+    margin-top: 8%;
+}
+
+#skills h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 230%;
+    margin-bottom: 5%;
+}
+
+.skills-languange {
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.languange1 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    height: 200px;
+    width: 300px;
+    margin: 0 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: color .8s ease;
+}
+
+.languange1:hover {
+    color: rgb(185, 0, 185);
+    border: 2px solid rgb(185, 0, 185);
+}
+
+.languange2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    height: 200px;
+    width: 300px;
+    margin: 0 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: color .8s ease;
+}
+
+.languange2:hover {
+    color: rgb(185, 0, 185);
+    border: 2px solid rgb(185, 0, 185);
+}
+
+.languange3 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    height: 200px;
+    width: 300px;
+    margin: 0 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: color .8s ease;
+}
+
+.languange3:hover {
+    color: rgb(185, 0, 185);
+    border: 2px solid rgb(185, 0, 185);
+}
+
+.languange4 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    height: 200px;
+    width: 300px;
+    margin: 0 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: color .8s ease;
+}
+
+.languange4:hover {
+    color: rgb(185, 0, 185);
+    border: 2px solid rgb(185, 0, 185);
+}
+
+
+/* Styling for the contact section */
+.contact {
+    background-color: black;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  /* Styling for the title */
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: rgb(185, 0, 185);
+  }
+  
+  /* Styling for form elements */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-left: 25%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(185, 0, 185);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    justify-content: center;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 50%; /* Lebar textarea diperbesar menjadi 400% */
+    margin-left: 25%;
+    resize: vertical;
+    height: 150px; /* Tinggi textarea tetap seperti sebelumnya */
+  }
+  
+  /* Styling for the submit button */
+  button[type="submit"] {
+    margin-left: 45%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .footer {
+    background-color: black;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-title span {
+    color: #069cf9;
+  }
+  
+  .footer .social-icons a {
+    font-size: 1.5em;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #069cf9;
+  }
+  
+  
+  @media (max-width:1023px) {
+    header {
+      padding: 12px 20px;
+    }
+  
+    .navigation a {
+      padding-left: 10px;
+    }
+  
+    .title {
+      font-size: 1.8em;
+    }
+  
+    section {
+      padding: 80px 20px;
+    }
+  
+    .main-content h2 {
+      font-size: 1em;
+    }
+  
+    .main-content h3 {
+      font-size: 1.6em;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
